@@ -7,5 +7,7 @@ namespace neuron::os::common {
     public:
         Window();
         virtual ~Window() = default;
+
+
     };
 }

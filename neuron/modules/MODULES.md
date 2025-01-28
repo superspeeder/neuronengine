@@ -3,6 +3,8 @@
 Neuron is split into several modules which are generally built together to get the full engine.
 Generally, each is built as a shared library, allowing for smaller overall updates.
 
+Also, due to complexity for now most modules depend on the ECS module.
+
 ## Core
 This module contains general purpose code and utilities.
 Also exports the following libraries (which can't be easily built as shared libraries):
