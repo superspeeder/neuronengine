@@ -1,6 +1,8 @@
 #pragma once
 #include "neuron/core/compile_mode.hpp"
 
+#include "neuron/core/module_base.hpp"
+
 namespace neuron {
     NEURON_CORE_API int version_major();
     NEURON_CORE_API int version_minor();

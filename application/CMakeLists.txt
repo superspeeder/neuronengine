@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.30)
 project(neuron_test_app)
 
-option(NEURON_TEST_APP_WIN32_MODE ON "Build the test application as a win32 program")
+option(NEURON_TEST_APP_WIN32_MODE OFF "Build the test application as a win32 program")
 
 add_executable(neuron_test_app src/main.cpp)
 target_include_directories(neuron_test_app PRIVATE src/)

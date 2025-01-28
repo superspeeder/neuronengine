@@ -16,7 +16,7 @@ FetchContent_MakeAvailable(spdlog)
 
 add_library(neuron_log src/neuron/log/log.cpp src/neuron/log/log.hpp)
 target_include_directories(neuron_log PUBLIC src/)
-target_link_libraries(neuron_log PUBLIC spdlog::spdlog)
+target_link_libraries(neuron_log PUBLIC spdlog::spdlog neuron::core)
 add_library(neuron::log ALIAS neuron_log)
 
 Neuron_PrepModule(neuron_log LOG neuron/log)

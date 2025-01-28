@@ -13,7 +13,7 @@ namespace neuron {
         return NEURON_CORE_VERSION_PATCH;
     }
 
-    const char *version_string() {
+    const char *version_str() {
         return NEURON_CORE_VERSION;
     }
 }
